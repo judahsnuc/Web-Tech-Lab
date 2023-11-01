@@ -1,0 +1,40 @@
+:host {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+input {
+  font-size: 1.2em;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+p {
+  font-size: 1.2em;
+}
