@@ -1,0 +1,80 @@
+/* Use a custom font for the whole document */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Use a light gray background color for the body */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Center the main content and give it some margin */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Use a dark blue color for the headings and make them bold */
+h1, h2 {
+  color: #003366;
+  font-weight: bold;
+}
+
+/* Use a lighter blue color for the links and make them bold */
+a {
+  color: #0099cc;
+  font-weight: bold;
+}
+
+/* Use a gray color for the address and the last updated date */
+address, p:last-of-type {
+  color: #666666;
+}
+
+/* Use a horizontal rule to separate sections */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #cccccc;
+}
+
+/* Use a blockquote to highlight the objective */
+blockquote {
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid #003366;
+  background-color: #e6e6e6;
+}
+
+/* Use a table to display the experience details */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Use a light blue background color for the table header */
+th {
+  background-color: #e6f2ff;
+}
+
+/* Use a gray border for the table cells */
+td, th {
+  border: 1px solid #cccccc;
+  padding: 5px;
+}
+
+/* Use an ordered list with uppercase letters for the technical skills */
+ol[type="A"] {
+  list-style-type: upper-alpha;
+}
+
+/* Use a definition list for the education details */
+dl {
+  margin: 0;
+}
+
+/* Use a bold font for the definition terms */
+dt {
+  font-weight: bold;
+}
